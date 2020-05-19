@@ -7,4 +7,5 @@
 * [Shell](shell.md)
 * [Docker](docker.md)
 * [Latex](latex.md)
+* [HTML](html.md)
 
