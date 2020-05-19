@@ -1,8 +1,8 @@
-# Docker
+# Introduction
 
 List all containers \(running and exited\)
 
-```text
+```bash
 docker ps -a
 ```
 
