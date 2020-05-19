@@ -5,6 +5,6 @@
   * [Jupyter](python/jupyter.md)
   * [Pandas](python/pandas.md)
 * [Shell](shell.md)
-* [Latex](latex.md)
 * [Docker](docker.md)
+* [Latex](latex.md)
 
