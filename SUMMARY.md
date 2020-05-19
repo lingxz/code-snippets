@@ -6,5 +6,5 @@
   * [Pandas](python/pandas.md)
 * [Shell](shell.md)
 * [Latex](latex.md)
-* [Introduction](docker.md)
+* [Docker](docker.md)
 
