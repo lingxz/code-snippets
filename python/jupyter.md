@@ -1,6 +1,6 @@
 # Jupyter
 
-Jupyter scientific programming preamble
+### Scientific programming preamble
 
 ```python
 # jupyter notebook preamble for scientific things
@@ -12,7 +12,7 @@ plt.style.use('seaborn-white')
 %matplotlib inline
 ```
 
-Jupyter pandas preamble
+### pandas preamble
 
 ```python
 # Make data extracts smaller for online consumption
@@ -22,7 +22,7 @@ pd.set_option("display.max_rows", 10)
 pd.options.mode.chained_assignment = None
 ```
 
-Jupyter matplotlib plots configuration
+### matplotlib plots configuration
 
 ```python
 # matplotlib better plots
@@ -61,7 +61,7 @@ rcParams.update({'font.size': 30})
 plt.savefig(filename, dpi=400, transparent=True)
 ```
 
-Reload module
+### Reload module
 
 ```python
 # reload module (jupyter notebooks)

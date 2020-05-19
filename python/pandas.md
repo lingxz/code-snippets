@@ -1,19 +1,19 @@
 # Pandas
 
-Mass setting some rows in pandas
+### Mass setting some rows in pandas
 
 ```python
 df.iloc[start_row:end_row,col_index] = 0
 ```
 
-Reset index
+### Reset index
 
 ```python
 # when groupby doesn't work (or when in doubt), reset index:
 df.reset_index(inplace=True)
 ```
 
-Aggregate features
+### Aggregate features
 
 ```python
 # aggregate features (mainly count)
@@ -35,7 +35,7 @@ def add_count(df, cols, target):
     add_aggregate_features(df, cols, {target: 'count'}, {target+"_count": colname})
 ```
 
-Another way to add count
+### Another way to add count
 
 ```python
 # Add counts by anttip
@@ -49,7 +49,7 @@ def df_add_counts(df, cols):
 df[group_cols].groupby(group_cols).size()
 ```
 
-Print a `groupby` object
+### Print a `groupby` object
 
 ```python
 # printing a groupby object

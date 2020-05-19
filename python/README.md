@@ -1,6 +1,6 @@
 # Python
 
-Timer
+### Timer
 
 ```python
 from contextlib import contextmanager
@@ -17,7 +17,7 @@ with timer('process stuff'):
     do_something()
 ```
 
-CPU stats
+### CPU stats
 
 ```python
 # cpu stats

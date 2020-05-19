@@ -1,6 +1,6 @@
 # Latex
 
-Include figure
+### Include figure
 
 ```text
 \begin{figure}
@@ -11,7 +11,7 @@ Include figure
 \end{figure}
 ```
 
-Using `hyperref` and the correct labels with `autoref` \(Eq. 1 instead of Equation 1 and Fig. 1 instead of Figure 1\)
+### Using `hyperref` and the correct labels with `autoref` \(Eq. 1 instead of Equation 1 and Fig. 1 instead of Figure 1\)
 
 ```text
 \usepackage[english]{babel}
@@ -31,14 +31,14 @@ Using `hyperref` and the correct labels with `autoref` \(Eq. 1 instead of Equati
 }
 ```
 
-Continuous figure labeling in book class \(Fig 1, 2, 3 instead of Fig 1.1, 2.1, 2.2...\)
+### Continuous figure labeling in book class \(Fig 1, 2, 3 instead of Fig 1.1, 2.1, 2.2...\)
 
 ```text
 \usepackage{chngcntr}
 \counterwithout{figure}{chapter}
 ```
 
-Subfigures side by side
+### Subfigures side by side
 
 ```text
 \begin{figure}
