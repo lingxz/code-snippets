@@ -2,6 +2,7 @@
 
 * [&gt; code](README.md)
 * [Python](python/README.md)
+  * [Colab](python/colab.md)
   * [Reindent from 2 to 4 spaces \(or vice versa\)](python/reindent-from-2-to-4-spaces-or-vice-versa.md)
   * [Jupyter](python/jupyter.md)
   * [Pandas](python/pandas/README.md)
