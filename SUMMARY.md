@@ -11,4 +11,5 @@
 * [Docker](docker.md)
 * [Latex](latex.md)
 * [HTML](html.md)
+* [SQL](sql.md)
 
